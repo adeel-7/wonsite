@@ -30,7 +30,18 @@
     color: var(--yellow);
 }
 
-@media screen and (max-width: '768px') {
+.header-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+
+@media screen and (max-width: 600px) { 
+    .mainLogo {
+        width: 250px;
+    }
+
     .header>:nth-child(2) {
         position:fixed;
         right: 2rem;
@@ -41,5 +52,12 @@
         flex-direction: column;
         background-color: var(--appColor) ;
         padding: 2rem;
+    }
+
+    .header-menu {
+        flex-direction: column;
+        background-color: var(--light-blue) ;
+        padding: 2rem;
+        z-index: 99;
     }
 } 

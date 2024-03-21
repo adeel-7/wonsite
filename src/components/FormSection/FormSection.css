@@ -60,8 +60,6 @@
 
 /* Form */
 .registratinForm {
-    /* text-align: center;  */
-    /* justify-content: center; */
     padding: 0rem 4rem;
 }
 
@@ -82,4 +80,34 @@
     text-transform: uppercase;
 }
 
+/* Mobile optimized queries */
+
+@media screen and (max-width: 600px) {
+    .form-section {
+        background-color: var(--lightgray);
+        padding: 1rem 1rem;
+    }
+
+    .forms-grid {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        padding: 0rem 1rem;
+    }
+
+    .downloadBtns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .downloadFormBtn {
+        padding: 12px;
+        margin: 15px auto;
+        text-align: center;
+        border-radius: 8px;
+    }
+
+
+}
 

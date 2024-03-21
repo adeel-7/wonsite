@@ -11,14 +11,35 @@ const Testimonials = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 600, // Adjust breakpoints as needed for different devices
+              settings: {
+                dots: false,
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 0,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                dots: false,
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
       };
 
     return (
     <div className="TestimonialsWrapper">
         <div className="left-t">
             <ul><li>Testimonials</li></ul>
-            <span className="testimonialsText">Words from Our <br /> &nbsp;&nbsp;Grateful Patients</span>
+            <span className="testimonialsText">Words from Our &nbsp;&nbsp;Grateful Patients</span>
             
             <i className='bx bxs-quote-left'></i>
         </div>
@@ -33,7 +54,7 @@ const Testimonials = () => {
 
                 <div className="personDetails">
                     <div>
-                        <img src={User} width="80" height="80" className="avatar" />
+                        <img src={User} width="80" height="80" className="avatar" alt="Testimonial 1" />
                     </div>
 
                     <div className="row-display-column">
@@ -59,7 +80,7 @@ const Testimonials = () => {
 
                 <div className="personDetails">
                     <div>
-                        <img src={User2} width="80" height="80" className="avatar" />
+                        <img src={User2} width="80" height="80" className="avatar" alt="Testimonial 2" />
                     </div>
 
                     <div className="row-display-column">

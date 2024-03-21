@@ -10,20 +10,21 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbarWrapper">
+    <div className="header navbarWrapper">
         <div className="logo">
           <img src={Logo} alt="logo" className="mainLogo" />
         </div>
 
         <div className="navbarElements">
         {menuOpened === false && mobile === true ? (
-            <div style={{backgroundColor: 'var(--appColor)', 
-              padding: '0.5rem', 
+            <div style={{
+              backgroundColor: 'var(--yellow)', 
+              padding: '1rem', 
               borderRadius: '5px'
               }}
             onClick={() => setMenuOpened(true)}  
             >
-              {/* <img src={Bars} alt="bars" style={{width: '1.5rem', height: '1.5rem'}}/> */}
+              <i className='bx bx-align-middle' style={{color: 'white', fontSize: '25px'}}></i>
             </div>
 
           ) : ( <ul className="header-menu"> 

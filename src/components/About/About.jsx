@@ -1,5 +1,4 @@
 import './About.css';
-import Rectangle14 from '../../../src/assets/Rectangle14.png';
 import {Link } from 'react-scroll';
 import Video from '../Video/Video';
 
@@ -23,7 +22,7 @@ const About = () => {
 
 
         {/* <img src={Rectangle14} alt="aboutImg" /> */}
-        <Video />
+        <Video className="aboutVideo" />
     </div>
   )
 }

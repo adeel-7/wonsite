@@ -11,8 +11,6 @@
 }
   
   .profile-image {
-    width: 350px; /* Adjust the size of the image as needed */
-    height: auto;
     object-fit: cover;
   }
   
@@ -31,10 +29,20 @@
   
   .profile-name {
     margin: 0;
-    font-size: 22   px;
+    font-size: 22px;
   }
   
   .profile-description {
     margin: 0;
     font-size: 14px;
   }
+
+  /* Mobile Optimized */
+@media screen and (max-width: 600px) {
+  .directorsWrapper{
+    background-color: var(--lightgray);
+    padding: 1rem 1rem;
+    text-align: center;
+    justify-content: center;
+  }
+}

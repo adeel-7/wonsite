@@ -61,12 +61,18 @@
   @media screen and (max-width: 600px) {
     
     .serviceWrapper {
-        padding: 1rem 2rem;
+        padding: 1rem 1rem;
     }
 
     .serviceWrapper ul {
-        margin: 10px;
+        margin: 5px;
         font-size: 14px;
+    }
+
+    .container {
+      margin: 20px 0px;
+      display: flex;
+      flex-wrap: wrap;
     }
 
     .servicesCardHeading {
@@ -79,7 +85,7 @@
     .column {
       flex-basis: calc(100%); /* 50% width with 10px margin-right in mobile view */
     }
-  
+
     /* To remove the margin-right from the last column in mobile view */
     .column:nth-child(2n) {
       margin-right: 0;

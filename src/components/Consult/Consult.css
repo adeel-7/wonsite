@@ -37,3 +37,25 @@
       opacity: 1; /* End opacity */
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .consultContainer {
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0rem 0rem;
+      animation: fadeInOut 5s ease-in-out infinite alternate;
+    }
+
+    .content {
+      text-align: center;
+      margin: 10px;
+    }
+
+    .consultText {
+      color: #FFF;
+      font-size: 32px;
+      text-align:justify
+    }
+  }

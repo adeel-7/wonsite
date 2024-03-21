@@ -92,3 +92,48 @@
     border-bottom: 2px solid white;
     margin: 10px;
 }
+
+
+@media screen and (max-width: 600px) {
+    .contactWrapper{
+        background-color: var(--dark-blue);
+        height: 130vh;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-left {
+        width: 100%;
+    }
+    
+    .contact-right {
+        width: 100%;
+    }
+    
+    .contactText {
+        font-size: 28px;
+        color: #FFF;
+        align-self: center;    
+    }
+
+    .contactInfoArea {
+        width: 350px;
+        background-color:var(--light-blue);
+        color: #FFF;
+        padding: 20px;
+        margin-left:20px;
+        margin-top: 30px;
+    }
+    
+    .formRow {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .contactSubmitBtn {
+        align-self: center;
+        margin: 0 auto;
+    }
+}

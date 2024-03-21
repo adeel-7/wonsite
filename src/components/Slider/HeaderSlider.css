@@ -118,3 +118,80 @@
     text-align: justify;
     line-height: 3rem;
   }
+
+
+  @media screen and (max-width: 600px) { 
+    .header-container {
+      position: relative;
+      height: 120vh; /* Full viewport height */
+    }
+
+    .headerArea {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header-left {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      margin-top: 5%;
+    }
+  
+    .header-right {
+      width: 100%;
+      margin-top: 10%;
+    }
+    
+    .stroke-text {
+      color: transparent;
+      font-family: Arial, Helvetica, sans-serif;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: var(--yellow);
+      font-size: 230px;
+      z-index: 0;
+    }
+
+     /* left side of header */
+  .headerLeftTextArea {
+    position: relative;
+    margin: 0 auto;
+    width: 100vw;
+    margin-top: -80px;
+    background-color: var(--yellow);
+    padding: 2rem;
+    z-index: 1;
+  }
+
+  .headerLeftTextArea span {
+    text-transform: uppercase;
+    color: white;
+    font-size:22px;
+    text-align: justify;
+    line-height: 2rem;
+  }
+
+  .headerHeading {
+    font-size:26px;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 1rem;
+  }
+
+  .headerHeadingSecondary {
+    font-size:36px;
+    margin: 1rem;
+  }
+
+  .headerText{
+    font-size:20px;
+    color: white;
+    text-align: justify;
+    padding-right: 2rem;
+    margin: 1rem;
+  }
+
+  .headerConsultBtn {
+    margin: 1rem;
+  }
+}

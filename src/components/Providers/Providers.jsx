@@ -14,7 +14,28 @@ const Providers = () => {
             autoplay: true,
             speed: 5000,
             autoplaySpeed: 5000,
-            cssEase: "linear"
+            cssEase: "linear",
+            responsive: [
+                {
+                  breakpoint: 600, // Adjust breakpoints as needed for different devices
+                  settings: {
+                    dots: false,
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 0,
+                  },
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    dots: false,
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                  },
+                },
+              ],
         };
       
   return (
@@ -29,7 +50,7 @@ const Providers = () => {
         <Slider {...settings}>
         <div>
           <div className="profile-container">
-            <img className="profile-image" src={ProfileImg} alt="Profile Image" />
+            <img className="profile-image" src={ProfileImg} alt="Profile 1" />
                 <div className="profile-details">
                     <h2 className="profile-name">Daphney Zidor</h2>
                     <p className="profile-description">ARNP</p>
@@ -39,7 +60,7 @@ const Providers = () => {
 
         <div>
           <div className="profile-container">
-            <img className="profile-image" src={ProfileImg1} alt="Profile Image" />
+            <img className="profile-image" src={ProfileImg1} alt="Profile 2" />
                 <div className="profile-details">
                     <h2 className="profile-name">Dr. Muhammad Malik</h2>
                     <p className="profile-description">Nephrologist</p>
@@ -49,7 +70,7 @@ const Providers = () => {
 
         <div>
           <div className="profile-container">
-            <img className="profile-image" src={ProfileImg2} alt="Profile Image" />
+            <img className="profile-image" src={ProfileImg2} alt="Profile 3" />
                 <div className="profile-details">
                     <h2 className="profile-name">Patricia Miller</h2>
                     <p className="profile-description">ARNP</p>

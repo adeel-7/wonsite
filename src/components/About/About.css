@@ -46,6 +46,30 @@
 .aboutWrapper img {
     width: 42rem;
     height: 42rem;
+}
 
+/* Mobile optimized app */
+@media screen and (max-width: 600px) {
+    .aboutWrapper {
+        background-color: var(--lightgray);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 8rem;
+    }
+    
+    .about {
+        margin-top:2rem;
+        width: 100%;
+       text-align: center;
+       justify-content: center;
+    }
+
+    .aboutHeading {
+        font-size: 18px;
+        color: var(--dark-blue);
+        font-weight: bold;
+    }
 }
 

@@ -10,8 +10,6 @@ import Header from './components/Header/Header';
 import Providers from './components/Providers/Providers';
 import Services from './components/Services/Services';
 import Testimonials from './components/Testimonials/Testimonials';
-import Video from './components/Video/Video';
-
 
 function App() {
   return (

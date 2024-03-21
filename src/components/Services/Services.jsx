@@ -7,7 +7,7 @@ import DietChart from '../../../src/assets/DietChart.svg';
 
 const Services = () => {
   return (
-    <div className="serviceWrapper">
+    <div className="serviceWrapper" id="services">
         <ul> 
             <li>
                 our nephrology services

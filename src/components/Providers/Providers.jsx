@@ -39,7 +39,7 @@ const Providers = () => {
         };
       
   return (
-    <div className='providersWrapper'>
+    <div className='providersWrapper' id="providers">
         <div className="text-center">   
             Our Providers <br/>
             <span className="mainHeading"> Meet Our Providers</span>

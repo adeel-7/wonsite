@@ -38,7 +38,7 @@ const Directors = () => {
         };
       
   return (
-    <div className='directorsWrapper'>
+    <div className='directorsWrapper' id="directors">
         <div className="text-center">   
             Our Directors <br/>
             <span className="mainHeading"> Meet Our Directors</span>

@@ -1,5 +1,4 @@
 import './About.css';
-import {Link } from 'react-scroll';
 import Video from '../Video/Video';
 
 const About = () => {
@@ -15,9 +14,9 @@ const About = () => {
                 journey to wellness.
             </p>
 
-            <hr className="aboutHR" />
+            {/* <hr className="aboutHR" />
             <br />
-            <Link className="aboutLink" >Make an appointment</Link>
+            <Link className="aboutLink" >Make an appointment</Link> */}
         </div>
 
 

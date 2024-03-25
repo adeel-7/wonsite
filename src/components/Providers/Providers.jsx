@@ -8,10 +8,10 @@ const Providers = () => {
 
         const settings = {
             dots: true,
+            arrows: false,
             infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            autoplay: true,
+            slidesToShow:3,
+            slidesToScroll: 2,
             speed: 5000,
             autoplaySpeed: 5000,
             cssEase: "linear",

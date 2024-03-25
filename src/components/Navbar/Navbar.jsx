@@ -29,7 +29,14 @@ const Navbar = () => {
 
           ) : ( <ul className="header-menu"> 
           
-          <li onClick={() => setMenuOpened(false)}>Home</li>
+          <li>
+          <Link onClick={() => setMenuOpened(false)} 
+            to="headerWrapper"
+            span={true} 
+            smooth={true}
+            >Home</Link>
+          </li>
+
 
           <li>
             <Link onClick={() => setMenuOpened(false)} 

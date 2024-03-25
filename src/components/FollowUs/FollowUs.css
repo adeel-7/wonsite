@@ -6,7 +6,7 @@
 .links {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -14,13 +14,14 @@
 
 .link {
     border-radius: 999px;
-    border: 3px solid var(--dark-blue);
+    border: 3px solid var(--yellow);
     padding: 1rem;
     cursor: pointer;
 }
 
 .link:hover {
-   background-color:var(--lightgray);
+   background-color:var(--dark-blue);
+   color: white;
    transition: all 0.3s;
 }
 
@@ -44,10 +45,10 @@
     
     .link {
         border-radius: 999px;
-        border: 3px solid var(--dark-blue);
+        border: 3px solid var(--yellow);
         cursor: pointer;
         margin: 20px;
-        padding: 2rem;
+        padding: 3.5rem;
     }
 
     .link i {

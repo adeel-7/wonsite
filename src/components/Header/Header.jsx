@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
 
 return (
-    <div className="headerWrapper">
+    <div className="headerWrapper" id="headerWrapper"> 
         <HeaderSlider />
     </div>
 )

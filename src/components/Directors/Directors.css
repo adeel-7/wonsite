@@ -1,42 +1,43 @@
 .directorsWrapper{
   background-color: var(--lightgray);
-  padding: 6rem 6rem;
+  padding: 3rem 15rem;
   text-align: center;
   justify-content: center;
 } 
 
-.profile-container {
-    position: relative;
-    display: inline-block;
+.coaches-section {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-around;
 }
-  
-  .profile-image {
-    object-fit: cover;
-  }
-  
-  .profile-details {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 181, 204, 0.7); /* Adjust opacity and color as needed */
-    color: white;
-    padding: 20px;
-    box-sizing: border-box;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-  
-  .profile-name {
-    margin: 0;
-    font-size: 22px;
-  }
-  
-  .profile-description {
-    margin: 0;
-    font-size: 14px;
-  }
 
+.coach {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.coach img {
+  border-radius: 25px;
+  width: 340px; /* Adjust width as needed */
+  height: 340px; /* Adjust height as needed */
+  border: 4px solid var(--yellow);
+  padding: 10px;
+  object-fit: contain;
+}
+
+.coach .name {
+  margin: 5px;
+  font-weight: bold;
+  color: var(--dark-blue);
+}
+
+.coach .desig {
+  margin: 2px;
+  color: var(--dark-blue);
+} 
   /* Mobile Optimized */
 @media screen and (max-width: 600px) {
   .directorsWrapper{
@@ -45,4 +46,18 @@
     text-align: center;
     justify-content: center;
   }
+
+  .coaches-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .coach img {
+    align-self: center;
+    margin: 25px 0px;
+  }
+  
 }

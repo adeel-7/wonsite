@@ -4,6 +4,7 @@ import Rectangle1 from '../../../src/assets/Rectangle1.png';
 import Rectangle2 from '../../../src/assets/Rectangle2.png';
 import Rectangle3 from '../../../src/assets/Rectangle3.png';
 import Navbar from '../Navbar/Navbar';
+import { Link } from 'react-scroll';
 
 
 const HeaderSlider = () => {
@@ -18,7 +19,7 @@ const settings = {
   };
 
     return (
-    <header className="header-container">
+    <header className="header-container" id="headers">
       <Slider {...settings}>
         <div className="slider-item">
           <img src={Rectangle1} alt="Slide 1" />
@@ -49,7 +50,14 @@ const settings = {
 
               <div className="headerLeftTextArea">
                 <span>comprehensive <br/> Nephrology services <br /> tailored to your <br /> Needs.</span>
-                <button className='headerConsultBtn'>View Our Services <i className="bx bx-caret-right"></i></button>
+                {/* <button className='headerConsultBtn'>View Our Services <i className="bx bx-caret-right"></i></button> */}
+                <Link
+                  to="services" 
+                  span={true} 
+                  smooth={true}
+                  className='headerConsultBtn'
+                  >
+                    View Our Services <i className="bx bx-caret-right"></i></Link>
               </div>
             </div>
 
@@ -60,7 +68,7 @@ const settings = {
                 <p className="headerText">At West Orange Nephrology Clinic, we prioritize your kidney health. Our team of experienced
                   nephrologists is here to provide personalized care and support at every step of your journey to wellness. 
                 </p>
-                <button className='headerConsultBtn'>Consult Now <i className="bx bx-caret-right"></i></button>
+                {/* <button className='headerConsultBtn'>Consult Now <i className="bx bx-caret-right"></i></button> */}
               </div>
             </div>
 

@@ -10,12 +10,15 @@ import { Link } from 'react-scroll';
 const HeaderSlider = () => {
 
 const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  adaptiveHeight: true, // Adjusts the slide's height to match the content's height
+  autoplaySpeed: 3000, // Adjust the autoplay speed as needed
+  cssEase: 'linear', // Ensure smoother transitions
   };
 
     return (

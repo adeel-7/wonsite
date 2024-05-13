@@ -41,16 +41,18 @@
     flex-direction: row;
     justify-content: space-around;
     /* letter-spacing: 1px; */
+    display: inline-block;
+    margin: 10px 0px;
 }
-
-.contactRow i {
-    flex: 1;
+ /* .contactRow i {
+    flex: 2;
     font-size: 32px;
 }
 
 .contactRow span {
-    flex: 9
-}
+    flex: 9;
+    float: left;
+} */
 
 .linkTag{
     text-decoration: none;

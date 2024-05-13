@@ -13,7 +13,7 @@ const ContactUs = () => {
         {/* information area */}
         <div className="contactInfoArea">
             <div className="contactRow">
-                <i className="bx bxs-envelope"></i>
+                <i className="bx bxs-envelope"></i> &nbsp;&nbsp;
                 <a href="mailto:support@westorangenephrology.com" className='linkTag'>
                     support@westorangenephrology.com
                 </a>    
@@ -21,13 +21,13 @@ const ContactUs = () => {
             <hr />
 
             <div className="contactRow">
-                <i className="bx bxs-phone"></i>
+                <i className="bx bxs-phone"></i> &nbsp;&nbsp;
                 <span>+1 407-297-8408</span>    
             </div>
             <hr />
 
             <div className="contactRow">
-                <i className="bx bxs-map" style={{color: 'red'}}></i>
+                <i className="bx bxs-map" style={{color: 'red'}}></i> &nbsp;&nbsp;
                 <span>
                     301 SW Crown Point Rd Suite 120 <br /> Winter Garden, FL 34787<br /> United States
                 </span>    

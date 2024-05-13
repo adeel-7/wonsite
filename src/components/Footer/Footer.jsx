@@ -49,7 +49,8 @@ const Footer = () => {
 
     <div className="footer-column">
         <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.9490570522076!2d-75.16400798421043!3d39.953525379425764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c64d3b602d39%3A0x4a9e01c4c572f15!2sPhiladelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1647039953150!5m2!1sen!2sus" width="100%" height="200" allowfullscreen="" loading="lazy" ></iframe>
+            {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.9490570522076!2d-75.16400798421043!3d39.953525379425764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c64d3b602d39%3A0x4a9e01c4c572f15!2sPhiladelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1647039953150!5m2!1sen!2sus" width="100%" height="200" allowfullscreen="" loading="lazy" ></iframe> */}
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.0155189772113!2d-81.56620649999999!3d28.5692967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e783618612848f%3A0xd1be5c673f826b77!2s301%20SW%20Crown%20Point%20Rd%20Suite%20120%2C%20Winter%20Garden%2C%20FL%2034787%2C%20USA!5e0!3m2!1sen!2s!4v1715577317350!5m2!1sen!2s" width="100%" height="200" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
     </div>
